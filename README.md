@@ -61,16 +61,17 @@ The simple DAG in this tutorial demonstrates the principles discussed in wiki an
 2. Check JSON file exists with a sensor.
 3. Load the numbers from the file, sum them and push it to a XCom.
 4. Pull the sum and Json file path from the XComs, print the sum and delete the file.
+
 This DAG will run every 5 minutes and start when we start all the _airflow_ services as we defined above.
 
 ### Steps to write an Airflow DAG
 There are only 5 steps you need to remember to write an Airflow DAG or workflow:
 
-Step 1: Importing modules
-Step 2: Default Arguments
-Step 3: Instantiate a DAG
-Step 4: Tasks
-Step 5: Setting up Dependencies
+Step 1: Importing modules  
+Step 2: Default Arguments  
+Step 3: Instantiate a DAG  
+Step 4: Tasks  
+Step 5: Setting up Dependencies  
 
 #### Step 1: Importing modules
 Import Python dependencies needed for the workflow
